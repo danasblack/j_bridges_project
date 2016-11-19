@@ -3,6 +3,13 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+.ul {
+    margin-right: 100px;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+    padding-left: 200px;
+}
 
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
@@ -11,6 +18,49 @@ body {
 .body-image {
     height: 250px;
     width: 300px;
+}
+
+.img-responsive .img-rounded{
+  width: 300px;
+}
+
+.learn-more{
+    padding-top: 50px;
+}
+
+.row-services{
+    margin-top: 50px;
+}
+
+#services{
+    margin-top: 100px;
+    margin-bottom: 250px;
+    text-align: center;
+}
+
+#footer{
+    background-color: #222;
+    width: 1170px;
+    height: 638px;
+}
+
+#service-image{
+    text-align: left;
+    height:300px;
+    width: 350px;
+}
+
+#service-image-two{
+    text-align: right;
+    height:300px;
+    width: 350px;
+    padding-right: 10px;
+    margin-top: 300px;
+}
+
+#list-items{
+    margin-left: 300px;
+    margin-bottom: 300px;
 }
 
 .navbar-fixed-top .nav {
@@ -33,4 +83,46 @@ footer {
     .navbar-fixed-top .navbar-brand {
         padding: 15px 0;
     }
+}
+
+/* Footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 280px;
+  background: 
+  /* color overlay */ 
+    linear-gradient(
+      rgba(0, 0, 0, 80), 
+      rgba(0, 0, 0, 0.45)
+    ),
+    /* image to overlay */
+    url(http://images.cdn.fotopedia.com/_avPIZmqM3w-7z161LH_268-hd.jpg);
+}
+
+
+/* Custom footer CSS
+-------------------------------------------------- */
+
+.container-footer {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+.footertext {
+  color: #ffffff;
 }
