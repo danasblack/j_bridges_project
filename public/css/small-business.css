@@ -35,19 +35,14 @@ body {
 #services{
     margin-top: 100px;
     margin-bottom: 250px;
-    text-align: center;
+    
 }
 
-#footer{
-    background-color: #222;
-    width: 1170px;
-    height: 638px;
-}
 
 #service-image{
     text-align: left;
-    height:300px;
-    width: 350px;
+    height:350px;
+    width: 450px;
 }
 
 #service-image-two{
@@ -97,8 +92,9 @@ body {
 }
 #footer {
   position: absolute;
-  bottom: 0;
+  bottom: 10;
   width: 100%;
+  left: 0;
   /* Set the fixed height of the footer here */
   height: 280px;
   background: 
