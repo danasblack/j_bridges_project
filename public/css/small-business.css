@@ -3,8 +3,11 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
+
 .ul {
     margin-right: 100px;
+    color: white;
 }
 
 .carousel-inner>.item>a>img, .carousel-inner>.item>img {
@@ -94,7 +97,7 @@ body {
   position: absolute;
   bottom: 10;
   width: 100%;
-  left: 0;
+  left:0;
   /* Set the fixed height of the footer here */
   height: 280px;
   background: 
