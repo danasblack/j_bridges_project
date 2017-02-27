@@ -3,19 +3,37 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+#estimate {
+  background-color: #e3DB0D;
+  color:black;
+   border-radius: 25px;
+   text-align: center;
+}
 
+#inner-estimate {
+  border-radius: 25px;
+  background-color: #E3940D;
+  color: #301c9d;
+  text-align: left;
+  border-color: #E3940D;
+}
 
 .ul {
     margin-right: 100px;
     color: white;
+    padding-top: 100px;
 }
 
 .carousel-inner>.item>a>img, .carousel-inner>.item>img {
- margin: auto;
+ margin-left: 80px;
+ height: 600px;
 }
 
 body {
-    padding-top: 200px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+      /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background-color: #fff;
 }
 
 .body-image {
@@ -46,6 +64,7 @@ body {
     text-align: left;
     height:350px;
     width: 450px;
+    border-radius: 25px;
 }
 
 #service-image-two{
@@ -54,7 +73,14 @@ body {
     width: 350px;
     padding-right: 10px;
     margin-top: 300px;
+    border-radius: 25px;
 }
+
+.btn-primary {
+  background-color: black;
+  border-color: black;
+  color: white;
+  }
 
 #list-items{
     margin-left: 300px;
@@ -62,7 +88,7 @@ body {
 }
 
 .navbar-fixed-top .nav {
-    padding: 10px 0;
+    padding: 15px 0;
 }
 
 .navbar-fixed-top .navbar-brand {
@@ -89,22 +115,23 @@ html {
   position: relative;
   min-height: 100%;
 }
-body {
-  /* Margin bottom by footer height */
+/*body {
+   Margin bottom by footer height 
   margin-bottom: 60px;
-}
+
+}*/
 #footer {
   position: absolute;
   bottom: 10;
   width: 100%;
   left:0;
   /* Set the fixed height of the footer here */
-  height: 450px;
+  height: 250px;
   background: 
   /* color overlay */ 
     linear-gradient(
-      rgba(0, 0, 0, 80), 
-      rgba(0, 0, 0, 0.45)
+      rgba(48, 28, 157, 80), 
+      rgba(48, 28, 157, 0.45)
     ),
     /* image to overlay */
     url(http://images.cdn.fotopedia.com/_avPIZmqM3w-7z161LH_268-hd.jpg);
